@@ -1,5 +1,7 @@
 name: simple_future_builder
 description: A simplified FutureBuilder 
+author: Emily Fortuna <efortuna@google.com>
+homepage: https://github.com/efortuna/simple_future_builder
 
 version: 1.0.0
 
