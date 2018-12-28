@@ -23,7 +23,7 @@ class SimpleFutureBuilder<T> extends StatelessWidget {
   /// The build strategy currently used by this builder.
   /// 
   /// This function is only called once the future completes.
-  final AsyncSimpleWidgetBuilder builder;
+  final AsyncSimpleWidgetBuilder<T> builder;
 
   @override
   Widget build(BuildContext context) {

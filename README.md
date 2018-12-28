@@ -15,7 +15,7 @@ and then in your code, suppose you have some computation that is completing in t
 
     SimpleFutureBuilder<String>(
         future: getAsyncVersion(),
-        builder: (BuildContext context, String result) => Text(text: result),
+        builder: (BuildContext context, String result) => Text(result),
     )
 
 Please note, if you want to deal with full error handling based on the results of the future, you will instead need to use the FutureBuilder widget.

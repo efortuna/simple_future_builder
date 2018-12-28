@@ -1,9 +1,9 @@
 name: simple_future_builder
-description: A simplified FutureBuilder 
+description: A simplified FutureBuilder widget for the most common use case when working with Futures in Flutter.
 author: Emily Fortuna <efortuna@google.com>
 homepage: https://github.com/efortuna/simple_future_builder
 
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
